@@ -1,24 +1,16 @@
 import React from 'react';
-import myImage from './images/user-solid.svg';
-import Card from './CardHome';
+import Todo from './Todo';
+// import AllPets from './AllPets'
 
 const Home = ({ username }) => {
   return (
     <div>
       <section className='topbar'>
-          <h1>Welcome, {username}!</h1>
-          <img src={myImage} alt="my image" />
+          <h2>Welcome, {username}!</h2>
           <p>Username: {username}</p>   
       </section>
     <div className="home">
-      <div className="home__container">
-        <img
-          className="home__image"
-          src="https://www.rd.com/wp-content/uploads/2019/11/steve-greig-portrait-scaled.jpg"
-          alt=""
-        />
-      </div>
-        <Card />
+       <Todo />
     </div>
     </div>
   );

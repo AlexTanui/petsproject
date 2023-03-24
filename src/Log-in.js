@@ -21,11 +21,11 @@ const LoginForm = ({ onLogin }) => {
             
                 <img
                     className="login__logo"
-                    src='https://upload.wikimedia.org/wikipedia/commons/b/b2/Petfinder_logo.png' 
+                    src='https://edita.com.eg/wp-content/uploads/2020/06/todo-logo.png' 
                 />
             
      <div className='login__container'>
-                <h1>Sign-in</h1>
+                <h2>Sign-in</h2>
     <form onSubmit={handleSubmit}>
       
       <h5>username</h5>

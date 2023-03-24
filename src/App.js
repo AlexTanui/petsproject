@@ -20,9 +20,10 @@ const App = () => {
 
   return (
     <div>
+       <Header />
       {isLoggedIn ? (
         <div>
-          <Header />
+         
           <Home username={username} />
           <button id="logout" onClick={handleLogout}>Logout</button>
         </div>
